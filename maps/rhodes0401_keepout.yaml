@@ -1,6 +1,6 @@
 image: /home/ubuntu/catkin_ws/src/fetch_ros_control/maps/rhodes0401_keepout.pgm
 resolution: 0.050000
-origin: [-8.413955, -3.285954, 0.000000]
+origin: [-11.0,-4.5,-0.22]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196

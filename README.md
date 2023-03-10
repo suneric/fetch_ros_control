@@ -36,12 +36,22 @@ roslaunch fetch_navigation build_map.launch
 ```
 teleop the robot to build the map of your environment and visualize in rviz
 
+### save maps
+```
+rosrun map_server map_saver -f <map_directory/map_name>
+
+```
+
 ### navigation
 clone this repo and run
 ```
 roslaunch fetch_ros_control navigation_test.launch
 ```
 or follow [fetch navigation](https://docs.fetchrobotics.com/navigation.html) toturial
+
+- change origin of the map in .yaml file
+- estimate the robot position in rviz by [2D Pose Estimate]
+- navigate the robot using rviz by [2D Nav Goal]
 
 ### auto dock
 drive the robot to the dock station, make sure the robot is facing to the dock and within 1 meter.
